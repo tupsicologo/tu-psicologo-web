@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Psicólogo 2.0 | Salud Mental Sin Barreras</title>
+    <meta name="description" content="Atención psicológica virtual, presencial y domiciliaria. Salud mental sin barreras, cerca de ti donde lo necesites.">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+        body { background: linear-gradient(to bottom, #061a33, #0c2e57); color: white; }
+        .container { max-width: 1200px; margin: auto; padding: 40px 20px; }
+        h1 { font-size: 3rem; }
+        h2 { font-size: 2.2rem; margin-bottom: 20px; }
+        h3 { font-size: 1.4rem; margin-bottom: 10px; }
+        p { margin-bottom: 15px; }
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            background: #22c55e;
+            color: white;
+            text-decoration: none;
+            border-radius: 12px;
+            font-weight: 600;
+            margin-top: 15px;
+        }
+        .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; margin-top: 40px; }
+        .card {
+            background: white;
+            color: #1e293b;
+            padding: 25px;
+            border-radius: 15px;
+        }
+        .section-dark { background: #0a2545; }
+        footer { text-align: center; padding: 30px; background: #04101f; font-size: 0.9rem; }
+        input, textarea {
+            width: 100%; padding: 12px; margin-bottom: 15px; border-radius: 8px; border: none;
+        }
+        form { max-width: 600px; margin: auto; }
+        .whatsapp-float {
+            position: fixed; bottom: 20px; right: 20px;
+            background: #22c55e; color: white;
+            padding: 15px 20px; border-radius: 50px;
+            text-decoration: none; font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container" style="text-align:center; padding-top:80px;">
+        <h1>Tu Psicólogo <span style="color:#22c55e;">2.0</span></h1>
+        <p style="font-size:1.3rem; margin-top:15px;">
+            Salud mental sin barreras, cerca de ti donde lo necesites
+        </p>
+        <a class="btn" href="https://wa.me/573017299430" target="_blank">
+            Agenda por WhatsApp
+        </a>
+    </div>
+
+    <div class="container section-dark">
+        <h2 style="text-align:center;">Modalidades de Atención</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Atención Virtual</h3>
+                <p>Sesión individual: $80.000</p>
+                <p>4 sesiones: $304.000</p>
+                <p>6 sesiones: $442.000</p>
+                <p>8 sesiones: $563.000</p>
+                <p>12 sesiones: $816.000</p>
+                <p>16 sesiones: $1.024.000</p>
+            </div>
+            <div class="card">
+                <h3>Atención Presencial</h3>
+                <p>Sesión individual: $130.000</p>
+                <p>4 sesiones: $494.000</p>
+                <p>6 sesiones: $718.000</p>
+                <p>8 sesiones: $915.000</p>
+                <p>12 sesiones: $1.326.000</p>
+                <p>16 sesiones: $1.706.000</p>
+            </div>
+            <div class="card">
+                <h3>Atención Domiciliaria</h3>
+                <p>Sesión individual: $160.000</p>
+                <p>4 sesiones: $608.000</p>
+                <p>6 sesiones: $893.000</p>
+                <p>8 sesiones: $1.152.000</p>
+                <p>12 sesiones: $1.690.000</p>
+                <p>16 sesiones: $2.176.000</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2 style="text-align:center;">Solicita Información</h2>
+        <form>
+            <input type="text" placeholder="Nombre completo" required>
+            <input type="email" placeholder="Correo electrónico" required>
+            <textarea rows="5" placeholder="Motivo de consulta" required></textarea>
+            <button class="btn" type="submit">Enviar mensaje</button>
+        </form>
+    </div>
+
+    <footer>
+        © 2026 Tu Psicólogo 2.0 - Todos los derechos reservados
+    </footer>
+
+    <a class="whatsapp-float" href="https://wa.me/573017299430" target="_blank">
+        WhatsApp
+    </a>
+
+</body>
+</html>
